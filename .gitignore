@@ -1,0 +1,39 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+data/uploads/*
+data/index/*
+outputs/*
+!data/uploads/.gitkeep
+!data/index/.gitkeep
+!outputs/.gitkeep
+
+
+
+# Environment variables / API keys
+.env
+.env.local
+.env.*
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated files
+outputs/
+data/
+*.pdf
+
+# IDE settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
